@@ -1,0 +1,1688 @@
+{
+  "InputBitLabels": {
+    "nNumberOfLabels": 43,
+    "LabelsArray": [
+      {
+        "nLabelId": 0,
+        "nIndex": 512,
+        "sLabel": "",
+        "sDescription": "程序启动",
+        "sOriginalName": "IN[512]"
+      },
+      {
+        "nLabelId": 1,
+        "nIndex": 513,
+        "sLabel": "",
+        "sDescription": "程序停止",
+        "sOriginalName": "IN[513]"
+      },
+      {
+        "nLabelId": 2,
+        "nIndex": 514,
+        "sLabel": "",
+        "sDescription": "程序复位",
+        "sOriginalName": "IN[514]"
+      },
+      {
+        "nLabelId": 3,
+        "nIndex": 515,
+        "sLabel": "",
+        "sDescription": "使能",
+        "sOriginalName": "IN[515]"
+      },
+      {
+        "nLabelId": 4,
+        "nIndex": 516,
+        "sLabel": "",
+        "sDescription": "急停",
+        "sOriginalName": "IN[516]"
+      },
+      {
+        "nLabelId": 5,
+        "nIndex": 517,
+        "sLabel": "",
+        "sDescription": "清除报警",
+        "sOriginalName": "IN[517]"
+      },
+      {
+        "nLabelId": 6,
+        "nIndex": 518,
+        "sLabel": "",
+        "sDescription": "速度加",
+        "sOriginalName": "IN[518]"
+      },
+      {
+        "nLabelId": 7,
+        "nIndex": 519,
+        "sLabel": "",
+        "sDescription": "速度减",
+        "sOriginalName": "IN[519]"
+      },
+      {
+        "nLabelId": 8,
+        "nIndex": 520,
+        "sLabel": "",
+        "sDescription": "原点回归",
+        "sOriginalName": "IN[520]"
+      },
+      {
+        "nLabelId": 9,
+        "nIndex": 521,
+        "sLabel": "",
+        "sDescription": "手动/自动模式切换",
+        "sOriginalName": "IN[521]"
+      },
+      {
+        "nLabelId": 10,
+        "nIndex": 522,
+        "sLabel": "",
+        "sDescription": "启动所有静态任务",
+        "sOriginalName": "IN[522]"
+      },
+      {
+        "nLabelId": 11,
+        "nIndex": 523,
+        "sLabel": "",
+        "sDescription": "设置当前操作的点位类型",
+        "sOriginalName": "IN[523]"
+      },
+      {
+        "nLabelId": 12,
+        "nIndex": 524,
+        "sLabel": "",
+        "sDescription": "动态制动",
+        "sOriginalName": "IN[524]"
+      },
+      {
+        "nLabelId": 13,
+        "nIndex": 528,
+        "sLabel": "",
+        "sDescription": "示教J1/X+",
+        "sOriginalName": "IN[528]"
+      },
+      {
+        "nLabelId": 14,
+        "nIndex": 529,
+        "sLabel": "",
+        "sDescription": "示教J2/Y+",
+        "sOriginalName": "IN[529]"
+      },
+      {
+        "nLabelId": 15,
+        "nIndex": 530,
+        "sLabel": "",
+        "sDescription": "示教J3/Z+",
+        "sOriginalName": "IN[530]"
+      },
+      {
+        "nLabelId": 16,
+        "nIndex": 531,
+        "sLabel": "",
+        "sDescription": "示教J4/A+",
+        "sOriginalName": "IN[531]"
+      },
+      {
+        "nLabelId": 17,
+        "nIndex": 532,
+        "sLabel": "",
+        "sDescription": "示教J5/B+",
+        "sOriginalName": "IN[532]"
+      },
+      {
+        "nLabelId": 18,
+        "nIndex": 533,
+        "sLabel": "",
+        "sDescription": "示教J6/C+",
+        "sOriginalName": "IN[533]"
+      },
+      {
+        "nLabelId": 19,
+        "nIndex": 536,
+        "sLabel": "",
+        "sDescription": "示教J1/X-",
+        "sOriginalName": "IN[536]"
+      },
+      {
+        "nLabelId": 20,
+        "nIndex": 537,
+        "sLabel": "",
+        "sDescription": "示教J2/Y-",
+        "sOriginalName": "IN[537]"
+      },
+      {
+        "nLabelId": 21,
+        "nIndex": 538,
+        "sLabel": "",
+        "sDescription": "示教J3/Z-",
+        "sOriginalName": "IN[538]"
+      },
+      {
+        "nLabelId": 22,
+        "nIndex": 539,
+        "sLabel": "",
+        "sDescription": "示教J4/A-",
+        "sOriginalName": "IN[539]"
+      },
+      {
+        "nLabelId": 23,
+        "nIndex": 540,
+        "sLabel": "",
+        "sDescription": "示教J5/B-",
+        "sOriginalName": "IN[540]"
+      },
+      {
+        "nLabelId": 24,
+        "nIndex": 541,
+        "sLabel": "",
+        "sDescription": "示教J6/C-",
+        "sOriginalName": "IN[541]"
+      },
+      {
+        "nLabelId": 25,
+        "nIndex": 544,
+        "sLabel": "",
+        "sDescription": "把当前位置写入当前P/JP变量",
+        "sOriginalName": "IN[544]"
+      },
+      {
+        "nLabelId": 26,
+        "nIndex": 546,
+        "sLabel": "",
+        "sDescription": "直接运动到当前P/JP变量位置",
+        "sOriginalName": "IN[546]"
+      },
+      {
+        "nLabelId": 27,
+        "nIndex": 547,
+        "sLabel": "",
+        "sDescription": "OUT[0]控制命令",
+        "sOriginalName": "IN[547]"
+      },
+      {
+        "nLabelId": 28,
+        "nIndex": 548,
+        "sLabel": "",
+        "sDescription": "OUT[1]控制命令",
+        "sOriginalName": "IN[548]"
+      },
+      {
+        "nLabelId": 29,
+        "nIndex": 549,
+        "sLabel": "",
+        "sDescription": "OUT[2]控制命令",
+        "sOriginalName": "IN[549]"
+      },
+      {
+        "nLabelId": 30,
+        "nIndex": 550,
+        "sLabel": "",
+        "sDescription": "OUT[3]控制命令",
+        "sOriginalName": "IN[550]"
+      },
+      {
+        "nLabelId": 31,
+        "nIndex": 551,
+        "sLabel": "",
+        "sDescription": "OUT[4]控制命令",
+        "sOriginalName": "IN[551]"
+      },
+      {
+        "nLabelId": 32,
+        "nIndex": 552,
+        "sLabel": "",
+        "sDescription": "OUT[5]控制命令",
+        "sOriginalName": "IN[552]"
+      },
+      {
+        "nLabelId": 33,
+        "nIndex": 553,
+        "sLabel": "",
+        "sDescription": "OUT[6]控制命令",
+        "sOriginalName": "IN[553]"
+      },
+      {
+        "nLabelId": 34,
+        "nIndex": 554,
+        "sLabel": "",
+        "sDescription": "OUT[7]控制命令",
+        "sOriginalName": "IN[554]"
+      },
+      {
+        "nLabelId": 35,
+        "nIndex": 555,
+        "sLabel": "",
+        "sDescription": "OUT[8]控制命令",
+        "sOriginalName": "IN[555]"
+      },
+      {
+        "nLabelId": 36,
+        "nIndex": 556,
+        "sLabel": "",
+        "sDescription": "OUT[9]控制命令",
+        "sOriginalName": "IN[556]"
+      },
+      {
+        "nLabelId": 37,
+        "nIndex": 557,
+        "sLabel": "",
+        "sDescription": "OUT[10]控制命令",
+        "sOriginalName": "IN[557]"
+      },
+      {
+        "nLabelId": 38,
+        "nIndex": 558,
+        "sLabel": "",
+        "sDescription": "OUT[11]控制命令",
+        "sOriginalName": "IN[558]"
+      },
+      {
+        "nLabelId": 39,
+        "nIndex": 559,
+        "sLabel": "",
+        "sDescription": "OUT[12]控制命令",
+        "sOriginalName": "IN[559]"
+      },
+      {
+        "nLabelId": 40,
+        "nIndex": 560,
+        "sLabel": "",
+        "sDescription": "OUT[13]控制命令",
+        "sOriginalName": "IN[560]"
+      },
+      {
+        "nLabelId": 41,
+        "nIndex": 561,
+        "sLabel": "",
+        "sDescription": "OUT[14]控制命令",
+        "sOriginalName": "IN[561]"
+      },
+      {
+        "nLabelId": 42,
+        "nIndex": 562,
+        "sLabel": "",
+        "sDescription": "OUT[15]控制命令",
+        "sOriginalName": "IN[562]"
+      }
+    ]
+  },
+  "InputByteLabels": {
+    "nNumberOfLabels": 0,
+    "LabelsArray": []
+  },
+  "InputWordLabels": {
+    "nNumberOfLabels": 66,
+    "LabelsArray": [
+      {
+        "nLabelId": 0,
+        "nIndex": 45,
+        "sLabel": "",
+        "sDescription": "远程控制命令",
+        "sOriginalName": "INW[45]"
+      },
+      {
+        "nLabelId": 1,
+        "nIndex": 46,
+        "sLabel": "",
+        "sDescription": "输入参数1",
+        "sOriginalName": "INW[46]"
+      },
+      {
+        "nLabelId": 2,
+        "nIndex": 47,
+        "sLabel": "",
+        "sDescription": "输入参数2",
+        "sOriginalName": "INW[47]"
+      },
+      {
+        "nLabelId": 3,
+        "nIndex": 48,
+        "sLabel": "",
+        "sDescription": "输入参数3",
+        "sOriginalName": "INW[48]"
+      },
+      {
+        "nLabelId": 4,
+        "nIndex": 49,
+        "sLabel": "",
+        "sDescription": "输入参数4",
+        "sOriginalName": "INW[49]"
+      },
+      {
+        "nLabelId": 5,
+        "nIndex": 50,
+        "sLabel": "",
+        "sDescription": "输入参数5",
+        "sOriginalName": "INW[50]"
+      },
+      {
+        "nLabelId": 6,
+        "nIndex": 51,
+        "sLabel": "",
+        "sDescription": "输入参数6",
+        "sOriginalName": "INW[51]"
+      },
+      {
+        "nLabelId": 7,
+        "nIndex": 52,
+        "sLabel": "",
+        "sDescription": "输入参数7",
+        "sOriginalName": "INW[52]"
+      },
+      {
+        "nLabelId": 8,
+        "nIndex": 53,
+        "sLabel": "",
+        "sDescription": "输入参数8",
+        "sOriginalName": "INW[53]"
+      },
+      {
+        "nLabelId": 9,
+        "nIndex": 54,
+        "sLabel": "",
+        "sDescription": "输入参数9",
+        "sOriginalName": "INW[54]"
+      },
+      {
+        "nLabelId": 10,
+        "nIndex": 55,
+        "sLabel": "",
+        "sDescription": "输入参数10",
+        "sOriginalName": "INW[55]"
+      },
+      {
+        "nLabelId": 11,
+        "nIndex": 56,
+        "sLabel": "",
+        "sDescription": "输入参数11",
+        "sOriginalName": "INW[56]"
+      },
+      {
+        "nLabelId": 12,
+        "nIndex": 57,
+        "sLabel": "",
+        "sDescription": "输入参数12",
+        "sOriginalName": "INW[57]"
+      },
+      {
+        "nLabelId": 13,
+        "nIndex": 58,
+        "sLabel": "",
+        "sDescription": "输入参数13",
+        "sOriginalName": "INW[58]"
+      },
+      {
+        "nLabelId": 14,
+        "nIndex": 59,
+        "sLabel": "",
+        "sDescription": "输入参数14",
+        "sOriginalName": "INW[59]"
+      },
+      {
+        "nLabelId": 15,
+        "nIndex": 60,
+        "sLabel": "",
+        "sDescription": "输入参数15",
+        "sOriginalName": "INW[60]"
+      },
+      {
+        "nLabelId": 16,
+        "nIndex": 61,
+        "sLabel": "",
+        "sDescription": "输入参数16",
+        "sOriginalName": "INW[61]"
+      },
+      {
+        "nLabelId": 17,
+        "nIndex": 62,
+        "sLabel": "",
+        "sDescription": "输入参数17",
+        "sOriginalName": "INW[62]"
+      },
+      {
+        "nLabelId": 18,
+        "nIndex": 63,
+        "sLabel": "",
+        "sDescription": "输入参数18",
+        "sOriginalName": "INW[63]"
+      },
+      {
+        "nLabelId": 19,
+        "nIndex": 64,
+        "sLabel": "",
+        "sDescription": "输入参数19",
+        "sOriginalName": "INW[64]"
+      },
+      {
+        "nLabelId": 20,
+        "nIndex": 65,
+        "sLabel": "",
+        "sDescription": "输入参数20",
+        "sOriginalName": "INW[65]"
+      },
+      {
+        "nLabelId": 21,
+        "nIndex": 66,
+        "sLabel": "",
+        "sDescription": "输入参数21",
+        "sOriginalName": "INW[66]"
+      },
+      {
+        "nLabelId": 22,
+        "nIndex": 67,
+        "sLabel": "",
+        "sDescription": "输入参数22",
+        "sOriginalName": "INW[67]"
+      },
+      {
+        "nLabelId": 23,
+        "nIndex": 68,
+        "sLabel": "",
+        "sDescription": "输入参数23",
+        "sOriginalName": "INW[68]"
+      },
+      {
+        "nLabelId": 24,
+        "nIndex": 69,
+        "sLabel": "",
+        "sDescription": "输入参数24",
+        "sOriginalName": "INW[69]"
+      },
+      {
+        "nLabelId": 25,
+        "nIndex": 70,
+        "sLabel": "",
+        "sDescription": "输入参数25",
+        "sOriginalName": "INW[70]"
+      },
+      {
+        "nLabelId": 26,
+        "nIndex": 71,
+        "sLabel": "",
+        "sDescription": "输入参数26",
+        "sOriginalName": "INW[71]"
+      },
+      {
+        "nLabelId": 27,
+        "nIndex": 72,
+        "sLabel": "",
+        "sDescription": "输入参数27",
+        "sOriginalName": "INW[72]"
+      },
+      {
+        "nLabelId": 28,
+        "nIndex": 73,
+        "sLabel": "",
+        "sDescription": "输入参数28",
+        "sOriginalName": "INW[73]"
+      },
+      {
+        "nLabelId": 29,
+        "nIndex": 74,
+        "sLabel": "",
+        "sDescription": "输入参数29",
+        "sOriginalName": "INW[74]"
+      },
+      {
+        "nLabelId": 30,
+        "nIndex": 75,
+        "sLabel": "",
+        "sDescription": "输入参数30",
+        "sOriginalName": "INW[75]"
+      },
+      {
+        "nLabelId": 31,
+        "nIndex": 76,
+        "sLabel": "",
+        "sDescription": "输入参数31",
+        "sOriginalName": "INW[76]"
+      },
+      {
+        "nLabelId": 32,
+        "nIndex": 77,
+        "sLabel": "",
+        "sDescription": "输入参数32",
+        "sOriginalName": "INW[77]"
+      },
+      {
+        "nLabelId": 33,
+        "nIndex": 78,
+        "sLabel": "",
+        "sDescription": "输入参数33",
+        "sOriginalName": "INW[78]"
+      },
+      {
+        "nLabelId": 34,
+        "nIndex": 79,
+        "sLabel": "",
+        "sDescription": "输入参数34",
+        "sOriginalName": "INW[79]"
+      },
+      {
+        "nLabelId": 35,
+        "nIndex": 80,
+        "sLabel": "",
+        "sDescription": "输入参数35",
+        "sOriginalName": "INW[80]"
+      },
+      {
+        "nLabelId": 36,
+        "nIndex": 81,
+        "sLabel": "",
+        "sDescription": "输入参数36",
+        "sOriginalName": "INW[81]"
+      },
+      {
+        "nLabelId": 37,
+        "nIndex": 82,
+        "sLabel": "",
+        "sDescription": "输入参数37",
+        "sOriginalName": "INW[82]"
+      },
+      {
+        "nLabelId": 38,
+        "nIndex": 83,
+        "sLabel": "",
+        "sDescription": "输入参数38",
+        "sOriginalName": "INW[83]"
+      },
+      {
+        "nLabelId": 39,
+        "nIndex": 84,
+        "sLabel": "",
+        "sDescription": "输入参数39",
+        "sOriginalName": "INW[84]"
+      },
+      {
+        "nLabelId": 40,
+        "nIndex": 85,
+        "sLabel": "",
+        "sDescription": "输入参数40",
+        "sOriginalName": "INW[85]"
+      },
+      {
+        "nLabelId": 41,
+        "nIndex": 86,
+        "sLabel": "",
+        "sDescription": "输入参数41",
+        "sOriginalName": "INW[86]"
+      },
+      {
+        "nLabelId": 42,
+        "nIndex": 87,
+        "sLabel": "",
+        "sDescription": "输入参数42",
+        "sOriginalName": "INW[87]"
+      },
+      {
+        "nLabelId": 43,
+        "nIndex": 88,
+        "sLabel": "",
+        "sDescription": "输入参数43",
+        "sOriginalName": "INW[88]"
+      },
+      {
+        "nLabelId": 44,
+        "nIndex": 89,
+        "sLabel": "",
+        "sDescription": "输入参数44",
+        "sOriginalName": "INW[89]"
+      },
+      {
+        "nLabelId": 45,
+        "nIndex": 90,
+        "sLabel": "",
+        "sDescription": "输入参数45",
+        "sOriginalName": "INW[90]"
+      },
+      {
+        "nLabelId": 46,
+        "nIndex": 91,
+        "sLabel": "",
+        "sDescription": "输入参数46",
+        "sOriginalName": "INW[91]"
+      },
+      {
+        "nLabelId": 47,
+        "nIndex": 92,
+        "sLabel": "",
+        "sDescription": "输入参数47",
+        "sOriginalName": "INW[92]"
+      },
+      {
+        "nLabelId": 48,
+        "nIndex": 93,
+        "sLabel": "",
+        "sDescription": "输入参数48",
+        "sOriginalName": "INW[93]"
+      },
+      {
+        "nLabelId": 49,
+        "nIndex": 94,
+        "sLabel": "",
+        "sDescription": "输入参数49",
+        "sOriginalName": "INW[94]"
+      },
+      {
+        "nLabelId": 50,
+        "nIndex": 95,
+        "sLabel": "",
+        "sDescription": "输入参数50",
+        "sOriginalName": "INW[95]"
+      },
+      {
+        "nLabelId": 51,
+        "nIndex": 141,
+        "sLabel": "",
+        "sDescription": "IO点位文件切换",
+        "sOriginalName": "INW[141]"
+      },
+      {
+        "nLabelId": 52,
+        "nIndex": 144,
+        "sLabel": "",
+        "sDescription": "IO工程切换",
+        "sOriginalName": "INW[144]"
+      },
+      {
+        "nLabelId": 53,
+        "nIndex": 145,
+        "sLabel": "",
+        "sDescription": "负载号设置",
+        "sOriginalName": "INW[145]"
+      },
+      {
+        "nLabelId": 54,
+        "nIndex": 146,
+        "sLabel": "",
+        "sDescription": "坐标系选择",
+        "sOriginalName": "INW[146]"
+      },
+      {
+        "nLabelId": 55,
+        "nIndex": 147,
+        "sLabel": "",
+        "sDescription": "工具坐标系号选择",
+        "sOriginalName": "INW[147]"
+      },
+      {
+        "nLabelId": 56,
+        "nIndex": 148,
+        "sLabel": "",
+        "sDescription": "工件坐标系号选择",
+        "sOriginalName": "INW[148]"
+      },
+      {
+        "nLabelId": 57,
+        "nIndex": 149,
+        "sLabel": "",
+        "sDescription": "速度设置",
+        "sOriginalName": "INW[149]"
+      },
+      {
+        "nLabelId": 58,
+        "nIndex": 150,
+        "sLabel": "",
+        "sDescription": "直接运动方式设置",
+        "sOriginalName": "INW[150]"
+      },
+      {
+        "nLabelId": 59,
+        "nIndex": 151,
+        "sLabel": "",
+        "sDescription": "跳跃运动LH参数低位",
+        "sOriginalName": "INW[151]"
+      },
+      {
+        "nLabelId": 60,
+        "nIndex": 152,
+        "sLabel": "",
+        "sDescription": "跳跃运动LH参数高位",
+        "sOriginalName": "INW[152]"
+      },
+      {
+        "nLabelId": 61,
+        "nIndex": 153,
+        "sLabel": "",
+        "sDescription": "跳跃运动MH参数低位",
+        "sOriginalName": "INW[153]"
+      },
+      {
+        "nLabelId": 62,
+        "nIndex": 154,
+        "sLabel": "",
+        "sDescription": "跳跃运动MH参数高位",
+        "sOriginalName": "INW[154]"
+      },
+      {
+        "nLabelId": 63,
+        "nIndex": 155,
+        "sLabel": "",
+        "sDescription": "跳跃运动RH参数低位",
+        "sOriginalName": "INW[155]"
+      },
+      {
+        "nLabelId": 64,
+        "nIndex": 156,
+        "sLabel": "",
+        "sDescription": "跳跃运动RH参数高位",
+        "sOriginalName": "INW[156]"
+      },
+      {
+        "nLabelId": 65,
+        "nIndex": 157,
+        "sLabel": "",
+        "sDescription": "当前P/JP变量的序号",
+        "sOriginalName": "INW[157]"
+      }
+    ]
+  },
+  "OutputBitLabels": {
+    "nNumberOfLabels": 55,
+    "LabelsArray": [
+      {
+        "nLabelId": 0,
+        "nIndex": 0,
+        "sLabel": "tool2",
+        "sDescription": "吸嘴1下",
+        "sOriginalName": "OUT[0]"
+      },
+      {
+        "nLabelId": 1,
+        "nIndex": 1,
+        "sLabel": "tool3",
+        "sDescription": "吸嘴2下",
+        "sOriginalName": "OUT[1]"
+      },
+      {
+        "nLabelId": 2,
+        "nIndex": 2,
+        "sLabel": "tool0",
+        "sDescription": "大吸嘴开",
+        "sOriginalName": "OUT[2]"
+      },
+      {
+        "nLabelId": 3,
+        "nIndex": 3,
+        "sLabel": "",
+        "sDescription": "吸嘴2开",
+        "sOriginalName": "OUT[3]"
+      },
+      {
+        "nLabelId": 4,
+        "nIndex": 4,
+        "sLabel": "light",
+        "sDescription": "光源开",
+        "sOriginalName": "OUT[4]"
+      },
+      {
+        "nLabelId": 5,
+        "nIndex": 5,
+        "sLabel": "",
+        "sDescription": "吸嘴1开",
+        "sOriginalName": "OUT[5]"
+      },
+      {
+        "nLabelId": 6,
+        "nIndex": 512,
+        "sLabel": "",
+        "sDescription": "程序运行状态",
+        "sOriginalName": "OUT[512]"
+      },
+      {
+        "nLabelId": 7,
+        "nIndex": 513,
+        "sLabel": "",
+        "sDescription": "程序停止状态",
+        "sOriginalName": "OUT[513]"
+      },
+      {
+        "nLabelId": 8,
+        "nIndex": 514,
+        "sLabel": "",
+        "sDescription": "程序复位成功状态",
+        "sOriginalName": "OUT[514]"
+      },
+      {
+        "nLabelId": 9,
+        "nIndex": 515,
+        "sLabel": "",
+        "sDescription": "使能状态",
+        "sOriginalName": "OUT[515]"
+      },
+      {
+        "nLabelId": 10,
+        "nIndex": 516,
+        "sLabel": "",
+        "sDescription": "急停状态",
+        "sOriginalName": "OUT[516]"
+      },
+      {
+        "nLabelId": 11,
+        "nIndex": 517,
+        "sLabel": "",
+        "sDescription": "系统故障状态",
+        "sOriginalName": "OUT[517]"
+      },
+      {
+        "nLabelId": 12,
+        "nIndex": 518,
+        "sLabel": "",
+        "sDescription": "系统警告状态",
+        "sOriginalName": "OUT[518]"
+      },
+      {
+        "nLabelId": 13,
+        "nIndex": 519,
+        "sLabel": "",
+        "sDescription": "伺服故障状态",
+        "sOriginalName": "OUT[519]"
+      },
+      {
+        "nLabelId": 14,
+        "nIndex": 520,
+        "sLabel": "",
+        "sDescription": "伺服警告状态",
+        "sOriginalName": "OUT[520]"
+      },
+      {
+        "nLabelId": 15,
+        "nIndex": 521,
+        "sLabel": "",
+        "sDescription": "安全门警告状态",
+        "sOriginalName": "OUT[521]"
+      },
+      {
+        "nLabelId": 16,
+        "nIndex": 522,
+        "sLabel": "",
+        "sDescription": "系统启动完成状态",
+        "sOriginalName": "OUT[522]"
+      },
+      {
+        "nLabelId": 17,
+        "nIndex": 523,
+        "sLabel": "",
+        "sDescription": "机器人运动中",
+        "sOriginalName": "OUT[523]"
+      },
+      {
+        "nLabelId": 18,
+        "nIndex": 524,
+        "sLabel": "",
+        "sDescription": "机器人运动到位状态",
+        "sOriginalName": "OUT[524]"
+      },
+      {
+        "nLabelId": 19,
+        "nIndex": 525,
+        "sLabel": "",
+        "sDescription": "总线通讯心跳信号",
+        "sOriginalName": "OUT[525]"
+      },
+      {
+        "nLabelId": 20,
+        "nIndex": 526,
+        "sLabel": "",
+        "sDescription": "动态制动",
+        "sOriginalName": "OUT[526]"
+      },
+      {
+        "nLabelId": 21,
+        "nIndex": 527,
+        "sLabel": "",
+        "sDescription": "P/JP变量写入是否成功",
+        "sOriginalName": "OUT[527]"
+      },
+      {
+        "nLabelId": 22,
+        "nIndex": 528,
+        "sLabel": "",
+        "sDescription": "IN[0]状态",
+        "sOriginalName": "OUT[528]"
+      },
+      {
+        "nLabelId": 23,
+        "nIndex": 529,
+        "sLabel": "",
+        "sDescription": "IN[1]状态",
+        "sOriginalName": "OUT[529]"
+      },
+      {
+        "nLabelId": 24,
+        "nIndex": 530,
+        "sLabel": "",
+        "sDescription": "IN[2]状态",
+        "sOriginalName": "OUT[530]"
+      },
+      {
+        "nLabelId": 25,
+        "nIndex": 531,
+        "sLabel": "",
+        "sDescription": "IN[3]状态",
+        "sOriginalName": "OUT[531]"
+      },
+      {
+        "nLabelId": 26,
+        "nIndex": 532,
+        "sLabel": "",
+        "sDescription": "IN[4]状态",
+        "sOriginalName": "OUT[532]"
+      },
+      {
+        "nLabelId": 27,
+        "nIndex": 533,
+        "sLabel": "",
+        "sDescription": "IN[5]状态",
+        "sOriginalName": "OUT[533]"
+      },
+      {
+        "nLabelId": 28,
+        "nIndex": 534,
+        "sLabel": "",
+        "sDescription": "IN[6]状态",
+        "sOriginalName": "OUT[534]"
+      },
+      {
+        "nLabelId": 29,
+        "nIndex": 535,
+        "sLabel": "",
+        "sDescription": "IN[7]状态",
+        "sOriginalName": "OUT[535]"
+      },
+      {
+        "nLabelId": 30,
+        "nIndex": 536,
+        "sLabel": "",
+        "sDescription": "IN[8]状态",
+        "sOriginalName": "OUT[536]"
+      },
+      {
+        "nLabelId": 31,
+        "nIndex": 537,
+        "sLabel": "",
+        "sDescription": "IN[9]状态",
+        "sOriginalName": "OUT[537]"
+      },
+      {
+        "nLabelId": 32,
+        "nIndex": 538,
+        "sLabel": "",
+        "sDescription": "IN[10]状态",
+        "sOriginalName": "OUT[538]"
+      },
+      {
+        "nLabelId": 33,
+        "nIndex": 539,
+        "sLabel": "",
+        "sDescription": "IN[11]状态",
+        "sOriginalName": "OUT[539]"
+      },
+      {
+        "nLabelId": 34,
+        "nIndex": 540,
+        "sLabel": "",
+        "sDescription": "IN[12]状态",
+        "sOriginalName": "OUT[540]"
+      },
+      {
+        "nLabelId": 35,
+        "nIndex": 541,
+        "sLabel": "",
+        "sDescription": "IN[13]状态",
+        "sOriginalName": "OUT[541]"
+      },
+      {
+        "nLabelId": 36,
+        "nIndex": 542,
+        "sLabel": "",
+        "sDescription": "IN[14]状态",
+        "sOriginalName": "OUT[542]"
+      },
+      {
+        "nLabelId": 37,
+        "nIndex": 543,
+        "sLabel": "",
+        "sDescription": "IN[15]状态",
+        "sOriginalName": "OUT[543]"
+      },
+      {
+        "nLabelId": 38,
+        "nIndex": 544,
+        "sLabel": "",
+        "sDescription": "OUT[0]状态",
+        "sOriginalName": "OUT[544]"
+      },
+      {
+        "nLabelId": 39,
+        "nIndex": 545,
+        "sLabel": "",
+        "sDescription": "OUT[1]状态",
+        "sOriginalName": "OUT[545]"
+      },
+      {
+        "nLabelId": 40,
+        "nIndex": 546,
+        "sLabel": "",
+        "sDescription": "OUT[2]状态",
+        "sOriginalName": "OUT[546]"
+      },
+      {
+        "nLabelId": 41,
+        "nIndex": 547,
+        "sLabel": "",
+        "sDescription": "OUT[3]状态",
+        "sOriginalName": "OUT[547]"
+      },
+      {
+        "nLabelId": 42,
+        "nIndex": 548,
+        "sLabel": "",
+        "sDescription": "OUT[4]状态",
+        "sOriginalName": "OUT[548]"
+      },
+      {
+        "nLabelId": 43,
+        "nIndex": 549,
+        "sLabel": "",
+        "sDescription": "OUT[5]状态",
+        "sOriginalName": "OUT[549]"
+      },
+      {
+        "nLabelId": 44,
+        "nIndex": 550,
+        "sLabel": "",
+        "sDescription": "OUT[6]状态",
+        "sOriginalName": "OUT[550]"
+      },
+      {
+        "nLabelId": 45,
+        "nIndex": 551,
+        "sLabel": "",
+        "sDescription": "OUT[7]状态",
+        "sOriginalName": "OUT[551]"
+      },
+      {
+        "nLabelId": 46,
+        "nIndex": 552,
+        "sLabel": "",
+        "sDescription": "OUT[8]状态",
+        "sOriginalName": "OUT[552]"
+      },
+      {
+        "nLabelId": 47,
+        "nIndex": 553,
+        "sLabel": "",
+        "sDescription": "OUT[9]状态",
+        "sOriginalName": "OUT[553]"
+      },
+      {
+        "nLabelId": 48,
+        "nIndex": 554,
+        "sLabel": "",
+        "sDescription": "OUT[10]状态",
+        "sOriginalName": "OUT[554]"
+      },
+      {
+        "nLabelId": 49,
+        "nIndex": 555,
+        "sLabel": "",
+        "sDescription": "OUT[11]状态",
+        "sOriginalName": "OUT[555]"
+      },
+      {
+        "nLabelId": 50,
+        "nIndex": 556,
+        "sLabel": "",
+        "sDescription": "OUT[12]状态",
+        "sOriginalName": "OUT[556]"
+      },
+      {
+        "nLabelId": 51,
+        "nIndex": 557,
+        "sLabel": "",
+        "sDescription": "OUT[13]状态",
+        "sOriginalName": "OUT[557]"
+      },
+      {
+        "nLabelId": 52,
+        "nIndex": 558,
+        "sLabel": "",
+        "sDescription": "OUT[14]状态",
+        "sOriginalName": "OUT[558]"
+      },
+      {
+        "nLabelId": 53,
+        "nIndex": 559,
+        "sLabel": "",
+        "sDescription": "OUT[15]状态",
+        "sOriginalName": "OUT[559]"
+      },
+      {
+        "nLabelId": 54,
+        "nIndex": 560,
+        "sLabel": "",
+        "sDescription": "当前操作的点位类型读取",
+        "sOriginalName": "OUT[560]"
+      }
+    ]
+  },
+  "OutputByteLabels": {
+    "nNumberOfLabels": 0,
+    "LabelsArray": []
+  },
+  "OutputWordLabels": {
+    "nNumberOfLabels": 70,
+    "LabelsArray": [
+      {
+        "nLabelId": 0,
+        "nIndex": 45,
+        "sLabel": "",
+        "sDescription": "远程控制状态",
+        "sOriginalName": "OUTW[45]"
+      },
+      {
+        "nLabelId": 1,
+        "nIndex": 46,
+        "sLabel": "",
+        "sDescription": "远程控制返回参数1/故障码",
+        "sOriginalName": "OUTW[46]"
+      },
+      {
+        "nLabelId": 2,
+        "nIndex": 47,
+        "sLabel": "",
+        "sDescription": "远程控制返回参数2/系统故障码",
+        "sOriginalName": "OUTW[47]"
+      },
+      {
+        "nLabelId": 3,
+        "nIndex": 48,
+        "sLabel": "",
+        "sDescription": "远程控制返回参数3",
+        "sOriginalName": "OUTW[48]"
+      },
+      {
+        "nLabelId": 4,
+        "nIndex": 49,
+        "sLabel": "",
+        "sDescription": "远程控制返回参数4",
+        "sOriginalName": "OUTW[49]"
+      },
+      {
+        "nLabelId": 5,
+        "nIndex": 50,
+        "sLabel": "",
+        "sDescription": "远程控制返回参数5",
+        "sOriginalName": "OUTW[50]"
+      },
+      {
+        "nLabelId": 6,
+        "nIndex": 51,
+        "sLabel": "",
+        "sDescription": "远程控制返回参数6",
+        "sOriginalName": "OUTW[51]"
+      },
+      {
+        "nLabelId": 7,
+        "nIndex": 52,
+        "sLabel": "",
+        "sDescription": "远程控制返回参数7",
+        "sOriginalName": "OUTW[52]"
+      },
+      {
+        "nLabelId": 8,
+        "nIndex": 53,
+        "sLabel": "",
+        "sDescription": "远程控制返回参数8",
+        "sOriginalName": "OUTW[53]"
+      },
+      {
+        "nLabelId": 9,
+        "nIndex": 54,
+        "sLabel": "",
+        "sDescription": "远程控制返回参数9",
+        "sOriginalName": "OUTW[54]"
+      },
+      {
+        "nLabelId": 10,
+        "nIndex": 55,
+        "sLabel": "",
+        "sDescription": "远程控制返回参数10",
+        "sOriginalName": "OUTW[55]"
+      },
+      {
+        "nLabelId": 11,
+        "nIndex": 56,
+        "sLabel": "",
+        "sDescription": "远程控制返回参数11",
+        "sOriginalName": "OUTW[56]"
+      },
+      {
+        "nLabelId": 12,
+        "nIndex": 57,
+        "sLabel": "",
+        "sDescription": "远程控制返回参数12",
+        "sOriginalName": "OUTW[57]"
+      },
+      {
+        "nLabelId": 13,
+        "nIndex": 58,
+        "sLabel": "",
+        "sDescription": "远程控制返回参数13",
+        "sOriginalName": "OUTW[58]"
+      },
+      {
+        "nLabelId": 14,
+        "nIndex": 59,
+        "sLabel": "",
+        "sDescription": "远程控制返回参数14",
+        "sOriginalName": "OUTW[59]"
+      },
+      {
+        "nLabelId": 15,
+        "nIndex": 60,
+        "sLabel": "",
+        "sDescription": "远程控制返回参数15",
+        "sOriginalName": "OUTW[60]"
+      },
+      {
+        "nLabelId": 16,
+        "nIndex": 61,
+        "sLabel": "",
+        "sDescription": "远程控制返回参数16",
+        "sOriginalName": "OUTW[61]"
+      },
+      {
+        "nLabelId": 17,
+        "nIndex": 62,
+        "sLabel": "",
+        "sDescription": "远程控制返回参数17",
+        "sOriginalName": "OUTW[62]"
+      },
+      {
+        "nLabelId": 18,
+        "nIndex": 63,
+        "sLabel": "",
+        "sDescription": "远程控制返回参数18",
+        "sOriginalName": "OUTW[63]"
+      },
+      {
+        "nLabelId": 19,
+        "nIndex": 64,
+        "sLabel": "",
+        "sDescription": "远程控制返回参数19",
+        "sOriginalName": "OUTW[64]"
+      },
+      {
+        "nLabelId": 20,
+        "nIndex": 65,
+        "sLabel": "",
+        "sDescription": "远程控制返回参数20",
+        "sOriginalName": "OUTW[65]"
+      },
+      {
+        "nLabelId": 21,
+        "nIndex": 66,
+        "sLabel": "",
+        "sDescription": "远程控制返回参数21",
+        "sOriginalName": "OUTW[66]"
+      },
+      {
+        "nLabelId": 22,
+        "nIndex": 67,
+        "sLabel": "",
+        "sDescription": "远程控制返回参数22",
+        "sOriginalName": "OUTW[67]"
+      },
+      {
+        "nLabelId": 23,
+        "nIndex": 68,
+        "sLabel": "",
+        "sDescription": "远程控制返回参数23",
+        "sOriginalName": "OUTW[68]"
+      },
+      {
+        "nLabelId": 24,
+        "nIndex": 69,
+        "sLabel": "",
+        "sDescription": "远程控制返回参数24",
+        "sOriginalName": "OUTW[69]"
+      },
+      {
+        "nLabelId": 25,
+        "nIndex": 70,
+        "sLabel": "",
+        "sDescription": "远程控制返回参数25",
+        "sOriginalName": "OUTW[70]"
+      },
+      {
+        "nLabelId": 26,
+        "nIndex": 71,
+        "sLabel": "",
+        "sDescription": "远程控制返回参数26",
+        "sOriginalName": "OUTW[71]"
+      },
+      {
+        "nLabelId": 27,
+        "nIndex": 72,
+        "sLabel": "",
+        "sDescription": "远程控制返回参数27",
+        "sOriginalName": "OUTW[72]"
+      },
+      {
+        "nLabelId": 28,
+        "nIndex": 73,
+        "sLabel": "",
+        "sDescription": "远程控制返回参数28",
+        "sOriginalName": "OUTW[73]"
+      },
+      {
+        "nLabelId": 29,
+        "nIndex": 74,
+        "sLabel": "",
+        "sDescription": "远程控制返回参数29",
+        "sOriginalName": "OUTW[74]"
+      },
+      {
+        "nLabelId": 30,
+        "nIndex": 75,
+        "sLabel": "",
+        "sDescription": "远程控制返回参数30",
+        "sOriginalName": "OUTW[75]"
+      },
+      {
+        "nLabelId": 31,
+        "nIndex": 76,
+        "sLabel": "",
+        "sDescription": "远程控制返回参数31",
+        "sOriginalName": "OUTW[76]"
+      },
+      {
+        "nLabelId": 32,
+        "nIndex": 77,
+        "sLabel": "",
+        "sDescription": "远程控制返回参数32",
+        "sOriginalName": "OUTW[77]"
+      },
+      {
+        "nLabelId": 33,
+        "nIndex": 78,
+        "sLabel": "",
+        "sDescription": "远程控制返回参数33",
+        "sOriginalName": "OUTW[78]"
+      },
+      {
+        "nLabelId": 34,
+        "nIndex": 79,
+        "sLabel": "",
+        "sDescription": "远程控制返回参数34",
+        "sOriginalName": "OUTW[79]"
+      },
+      {
+        "nLabelId": 35,
+        "nIndex": 80,
+        "sLabel": "",
+        "sDescription": "远程控制返回参数35",
+        "sOriginalName": "OUTW[80]"
+      },
+      {
+        "nLabelId": 36,
+        "nIndex": 81,
+        "sLabel": "",
+        "sDescription": "远程控制返回参数36",
+        "sOriginalName": "OUTW[81]"
+      },
+      {
+        "nLabelId": 37,
+        "nIndex": 82,
+        "sLabel": "",
+        "sDescription": "远程控制返回参数37",
+        "sOriginalName": "OUTW[82]"
+      },
+      {
+        "nLabelId": 38,
+        "nIndex": 83,
+        "sLabel": "",
+        "sDescription": "远程控制返回参数38",
+        "sOriginalName": "OUTW[83]"
+      },
+      {
+        "nLabelId": 39,
+        "nIndex": 84,
+        "sLabel": "",
+        "sDescription": "远程控制返回参数39",
+        "sOriginalName": "OUTW[84]"
+      },
+      {
+        "nLabelId": 40,
+        "nIndex": 85,
+        "sLabel": "",
+        "sDescription": "远程控制返回参数40",
+        "sOriginalName": "OUTW[85]"
+      },
+      {
+        "nLabelId": 41,
+        "nIndex": 86,
+        "sLabel": "",
+        "sDescription": "远程控制返回参数41",
+        "sOriginalName": "OUTW[86]"
+      },
+      {
+        "nLabelId": 42,
+        "nIndex": 87,
+        "sLabel": "",
+        "sDescription": "远程控制返回参数42",
+        "sOriginalName": "OUTW[87]"
+      },
+      {
+        "nLabelId": 43,
+        "nIndex": 88,
+        "sLabel": "",
+        "sDescription": "远程控制返回参数43",
+        "sOriginalName": "OUTW[88]"
+      },
+      {
+        "nLabelId": 44,
+        "nIndex": 89,
+        "sLabel": "",
+        "sDescription": "远程控制返回参数44",
+        "sOriginalName": "OUTW[89]"
+      },
+      {
+        "nLabelId": 45,
+        "nIndex": 90,
+        "sLabel": "",
+        "sDescription": "远程控制返回参数45",
+        "sOriginalName": "OUTW[90]"
+      },
+      {
+        "nLabelId": 46,
+        "nIndex": 91,
+        "sLabel": "",
+        "sDescription": "远程控制返回参数46",
+        "sOriginalName": "OUTW[91]"
+      },
+      {
+        "nLabelId": 47,
+        "nIndex": 92,
+        "sLabel": "",
+        "sDescription": "远程控制返回参数47",
+        "sOriginalName": "OUTW[92]"
+      },
+      {
+        "nLabelId": 48,
+        "nIndex": 93,
+        "sLabel": "",
+        "sDescription": "远程控制返回参数48",
+        "sOriginalName": "OUTW[93]"
+      },
+      {
+        "nLabelId": 49,
+        "nIndex": 94,
+        "sLabel": "",
+        "sDescription": "远程控制返回参数49",
+        "sOriginalName": "OUTW[94]"
+      },
+      {
+        "nLabelId": 50,
+        "nIndex": 95,
+        "sLabel": "",
+        "sDescription": "远程控制返回参数50",
+        "sOriginalName": "OUTW[95]"
+      },
+      {
+        "nLabelId": 51,
+        "nIndex": 140,
+        "sLabel": "",
+        "sDescription": "当前P/JP变量的序号",
+        "sOriginalName": "OUTW[140]"
+      },
+      {
+        "nLabelId": 52,
+        "nIndex": 141,
+        "sLabel": "",
+        "sDescription": "点位文件切换状态",
+        "sOriginalName": "OUTW[141]"
+      },
+      {
+        "nLabelId": 53,
+        "nIndex": 142,
+        "sLabel": "",
+        "sDescription": "当前控制权限",
+        "sOriginalName": "OUTW[142]"
+      },
+      {
+        "nLabelId": 54,
+        "nIndex": 143,
+        "sLabel": "",
+        "sDescription": "当前工程序号",
+        "sOriginalName": "OUTW[143]"
+      },
+      {
+        "nLabelId": 55,
+        "nIndex": 144,
+        "sLabel": "",
+        "sDescription": "工程当前状态",
+        "sOriginalName": "OUTW[144]"
+      },
+      {
+        "nLabelId": 56,
+        "nIndex": 145,
+        "sLabel": "",
+        "sDescription": "当前负载号",
+        "sOriginalName": "OUTW[145]"
+      },
+      {
+        "nLabelId": 57,
+        "nIndex": 146,
+        "sLabel": "",
+        "sDescription": "当前坐标系",
+        "sOriginalName": "OUTW[146]"
+      },
+      {
+        "nLabelId": 58,
+        "nIndex": 147,
+        "sLabel": "",
+        "sDescription": "当前工具坐标系号",
+        "sOriginalName": "OUTW[147]"
+      },
+      {
+        "nLabelId": 59,
+        "nIndex": 148,
+        "sLabel": "",
+        "sDescription": "当前工件坐标系号",
+        "sOriginalName": "OUTW[148]"
+      },
+      {
+        "nLabelId": 60,
+        "nIndex": 149,
+        "sLabel": "",
+        "sDescription": "当前速度",
+        "sOriginalName": "OUTW[149]"
+      },
+      {
+        "nLabelId": 61,
+        "nIndex": 150,
+        "sLabel": "",
+        "sDescription": "当前故障码",
+        "sOriginalName": "OUTW[150]"
+      },
+      {
+        "nLabelId": 62,
+        "nIndex": 151,
+        "sLabel": "",
+        "sDescription": "当前模式",
+        "sOriginalName": "OUTW[151]"
+      },
+      {
+        "nLabelId": 63,
+        "nIndex": 152,
+        "sLabel": "",
+        "sDescription": "当前直接运动方式",
+        "sOriginalName": "OUTW[152]"
+      },
+      {
+        "nLabelId": 64,
+        "nIndex": 153,
+        "sLabel": "",
+        "sDescription": "当前跳跃运动LH参数低位",
+        "sOriginalName": "OUTW[153]"
+      },
+      {
+        "nLabelId": 65,
+        "nIndex": 154,
+        "sLabel": "",
+        "sDescription": "当前跳跃运动LH参数高位",
+        "sOriginalName": "OUTW[154]"
+      },
+      {
+        "nLabelId": 66,
+        "nIndex": 155,
+        "sLabel": "",
+        "sDescription": "当前跳跃运动MH参数低位",
+        "sOriginalName": "OUTW[155]"
+      },
+      {
+        "nLabelId": 67,
+        "nIndex": 156,
+        "sLabel": "",
+        "sDescription": "当前跳跃运动MH参数高位",
+        "sOriginalName": "OUTW[156]"
+      },
+      {
+        "nLabelId": 68,
+        "nIndex": 157,
+        "sLabel": "",
+        "sDescription": "当前跳跃运动RH参数低位",
+        "sOriginalName": "OUTW[157]"
+      },
+      {
+        "nLabelId": 69,
+        "nIndex": 158,
+        "sLabel": "",
+        "sDescription": "当前跳跃运动RH参数高位",
+        "sOriginalName": "OUTW[158]"
+      }
+    ]
+  },
+  "AdLabels": {
+    "nNumberOfLabels": 0,
+    "LabelsArray": []
+  },
+  "DaLabels": {
+    "nNumberOfLabels": 0,
+    "LabelsArray": []
+  },
+  "BVarLabels": {
+    "nNumberOfLabels": 0,
+    "LabelsArray": []
+  },
+  "RVarLabels": {
+    "nNumberOfLabels": 0,
+    "LabelsArray": []
+  },
+  "DVarLabels": {
+    "nNumberOfLabels": 0,
+    "LabelsArray": []
+  }
+}

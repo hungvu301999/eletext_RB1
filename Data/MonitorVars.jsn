@@ -1,0 +1,31 @@
+[
+  {
+    "SelfId": "0adf0eba-4e95-41d9-ac8c-5b61172775f3",
+    "ParentId": "00000000-0000-0000-0000-000000000000",
+    "Name": "r[0:49]",
+    "Value": "",
+    "Info": "数组(Array)",
+    "LocationInfo": "作用域=全局",
+    "Image": 0,
+    "Type": 1,
+    "Tag": {
+      "RowCount": 1,
+      "LenInfos": [
+        256,
+        0,
+        0
+      ]
+    }
+  },
+  {
+    "SelfId": "cca55cac-2607-4958-94a1-adb631436306",
+    "ParentId": "0adf0eba-4e95-41d9-ac8c-5b61172775f3",
+    "Name": "[0]",
+    "Value": "未识别",
+    "Info": "变量(Variable)",
+    "LocationInfo": null,
+    "Image": 0,
+    "Type": 0,
+    "Tag": null
+  }
+]

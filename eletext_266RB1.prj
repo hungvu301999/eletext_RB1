@@ -1,0 +1,32 @@
+{
+  "FileType": "RobotProjectConfigFile",
+  "Company": "Inovance",
+  "MajorVersion": 2,
+  "MinorVersion": 1,
+  "IsMainActive": true,
+  "MultiTaskCount": 1,
+  "MultiTaskInfos": [
+    {
+      "TaskId": 1,
+      "EnterProgramFile": "STATIC.pro",
+      "TaskType": 1,
+      "IsActive": true
+    }
+  ],
+  "ProgramFilesCount": 9,
+  "ProgramFiles": [
+    "calibCam.pro",
+    "main.pro",
+    "pick.pro",
+    "pick_main_placeToNG.pro",
+    "place.pro",
+    "place_mainToInput.pro",
+    "place_sub2ToInput.pro",
+    "STATIC.pro",
+    "take_picture.pro"
+  ],
+  "RobPointFilesCount": 1,
+  "RobPointFiles": [
+    "P.pts"
+  ]
+}
